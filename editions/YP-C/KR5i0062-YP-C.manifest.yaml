@@ -1,0 +1,37 @@
+canonical_identifier: bkk:krp/KR5i0062/YP-C/v1
+canonical_location: https://kanripo.org/bkk/KR5i0062/YP-C/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 五篇靈文
+  date: '2015-08-29 17:54:42.777866'
+  source:
+    repository: kanripo
+    path: KR5i0062
+  image_base_urls:
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+  edition:
+    short: YP-C
+    label: 【原版道藏輯要】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 1, filename: KR5i0062_001-YP-C.yaml, hash: 'sha256:39d666113f390f34c34d8584d73222f3a0fe82256f28c82320b08b6d3f88e5f3'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5i0062_001-YP-C.markers.yaml, hash: 'sha256:2d22706625d5c1162e0214960f5b8819df1560b92035fbdbd5c21a67dd02a0ea'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: CK-KZ_KR5i0062_01p001a
+    span:
+    - body
+    - 0
+    - 6519
+  label: juan 001
+  type: section
+  level: 1
+hash: sha256:ff18740fdcb52a2a951c1e4659ffb8f0e21888755c3b1122f2951ad8c1a13064
